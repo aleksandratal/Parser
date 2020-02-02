@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(63, 110, 211);
+    color: rgb(255, 255, 255);
+  }
+
+  .CodeBlock {
+    background-color: rgb(5, 6, 77);
+  }
+
+  .QuotesBlock {
+    background-color: rgb(168, 168, 168);
+  }
