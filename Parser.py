@@ -244,5 +244,5 @@ f = open("index.html", "w")
 f.write(result)
 f.close()
 
-#url = 'index.html'
-#webbrowser.open(url, new=2)  # open in new tab
+url = 'index.html'
+webbrowser.open(url, new=2)  # open in new tab
