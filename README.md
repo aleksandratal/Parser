@@ -13,7 +13,8 @@ Python implementation of a Markdown. It converts markdown files into HTML. Main 
 - Blockquotes
 - EmtpyLine
 - MetaData
-Every markdown file needs to contain metada first encolsed between "---" signs
+
+Every markdown file needs to contain metada in first 6 lines encolsed between "---" signs. It specifies 4 features of a file: title, date, tags, theme (style or dark).
 
 ## Required libraries 
 * html
