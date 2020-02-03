@@ -25,3 +25,4 @@ Every markdown file needs to contain metada in first 6 lines encolsed between "-
 
 ## Logic
 
+Parser iterates through the markdown file, line by line, and convert every line to HTML code. It looks for special signs (like #, * etc) and if one is found it is added to a stack and the following lines are converted appropriatly to the sign on stack (if needed another signs are added to the stack as well e.g. for nested list). The sign is taken from the stack when a closing sign is found or an empty line is occured.
