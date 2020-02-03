@@ -14,7 +14,7 @@ Python implementation of a Markdown. It converts markdown files into HTML. Main 
 - EmtpyLine
 - MetaData
 
-Every markdown file needs to contain metada in first 6 lines encolsed between "---" signs. It specifies 4 features of a file: title, date, tags, theme (style or dark).
+Every markdown file needs to contain metada in first 6 lines encolsed between "---" signs. It specifies 4 features of a file: title, date, tags, theme (style or dark). Files: style.css and dark.css defines the styles of file and the tests.py file contains all tests of the program.
 
 ## Required libraries 
 * html
