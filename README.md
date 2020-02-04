@@ -1,5 +1,10 @@
 # Parser
 
+## Run
+Parser can be run from the cmd, simply type: 
+python Parser.py fileToParse.md
+
+## Description
 Python implementation of a Markdown. It converts markdown files into HTML. Main executive procedure can be found within the Parser.py file. Stack.py contains implementation of a stack data structure (used by parser) and MarkdownSection.py enumerates special characters which can be used in markdown files, i.e.:
 - Heading
 - BlockOfCode
