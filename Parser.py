@@ -2,6 +2,7 @@ import html # escape special signs in hTML
 from MarkdownSection import MarkdownSection, ListElements, ListUnorderedElements
 import re
 from Stack import Stack
+import sys
 import webbrowser   # open the html page automatically
 
 
@@ -233,7 +234,8 @@ class Parser(object):
 
 """Main program, calling a parser with sample.md example, writing it to index.html file"""
 
-f = open("sample.md", "r")
+filename = sys.argv[1]
+f = open(filename, "r")
 example = "".join(f.readlines())
 f.close()
 
